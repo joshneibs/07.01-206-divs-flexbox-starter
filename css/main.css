@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: rgb(96, 93, 71);;
   height: 100%;
 }
 
@@ -106,7 +106,8 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background: black;
+  background: rgb(96, 93, 71);
+  background-size: cover;
 }
 
 .wrapper {
@@ -114,12 +115,14 @@ body {
   font-weight: 700;
   display:flex;
   justify-content: space-between;
+  
+  
 
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: orange;
   line-height: 1.5em;
   font-size: .5em;
   background-color: #474141c7;
@@ -127,11 +130,12 @@ body {
   display: flex;
   align-items: center;
   width: 30%;
-  justify-content: center;
+  justify-content:center;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  overflow:auto;
 }
 
 .div-1 {
@@ -139,7 +143,7 @@ body {
     border-right: 2px solid white;
     border-radius: 10px;}
 
-.div-1 p {
+.wrapper p {
     margin: 10px;
 }   
 
@@ -147,7 +151,7 @@ body {
     border-left: 2px solid white;
     border-right: 2px solid white;
     border-radius: 10px;    
-}
+    }
 
 .div-3 {
     border-left: 2px solid white;
@@ -156,6 +160,48 @@ body {
 
 }
 
+.div-4 {
+    color: white;
+    display: flex;
+    margin: 10px;
+    padding:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+    background-color: rgb(64, 91, 95);
+    border-radius: 20px;
+}
+.div-4 a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: orange;
+    text-decoration: none;
+}
+.div-4 a:hover {
+    color:rgb(33, 217, 113);
+    text-transform: uppercase;
+   
+}
+
+
+header h1 {color:orange;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+.div-0 {color: orange;
+        font-size: 1rem;
+        margin-bottom: 40px;
+        width: 100%;
+        }
+span {text-transform: uppercase;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+footer{
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
